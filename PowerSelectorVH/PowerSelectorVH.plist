@@ -1,0 +1,9 @@
+{
+    Filter =     {
+        Bundles =         (
+            "com.ichitaso.powerselectorapp",
+            "com.apple.springboard",
+            "com.apple.Preferences"
+        );
+    };
+}

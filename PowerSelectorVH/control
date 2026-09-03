@@ -1,0 +1,10 @@
+Package: com.kitsudo.powerselectorvh
+Name: PoơerSelector gói Việt Hoá (Rootless)
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Thêm đầy đủ ngôn ngữ Tiếng Việt cho tweak PoơerSelector
+Maintainer: JTISVN Repo
+Author: KÃitsudo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

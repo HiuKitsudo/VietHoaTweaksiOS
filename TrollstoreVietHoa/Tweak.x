@@ -75,7 +75,6 @@ static void loadTranslations() {
         @"Donate to alfiecg_dev": @"Ủng hộ alfiecg_dev",
         @"Donate to opa334": @"Ủng hộ opa334 (Tác giả)",
         @"Uninstall TrollStore": @"Gỡ cài đặt TrollStore",
-        // Đã sửa lỗi xóa dấu --- thừa ở cuối dòng này
         @"TrollStore is NOT for piracy!": @"TrollStore KHÔNG dành cho vi phạm bản quyền!",
         @"Metadata": @"Thông tin ứng dụng",
         @"Bundle Identifier": @"Mã Bundle",
@@ -110,7 +109,6 @@ static void loadTranslations() {
             @"replacement": @"TrollStore $1\n© $2 Lars Fröder (opa334)\n\nTrollStore KHÔNG dành cho vi phạm bản quyền!\n\nTranslated by @Kitsudo🇻🇳(JTISVN)\n\nĐóng góp:"  
         },
         @{ @"pattern": @"Troarious contributions", @"replacement": @"Sự đóng góp của Troarious" },
-        // -----------------------------------------------------------------------
 
         @{ @"pattern": @"(I|l)did: Installed.*", @"replacement": @"ldid: Đã cài đặt (Hỗ trợ ký IPA)" },
         @{ @"pattern": @"(I|l)did is installed and allows.*", @"replacement": @"ldid cho phép TrollStore cài đặt các tệp IPA chưa ký." },
@@ -142,8 +140,15 @@ static void loadTranslations() {
 // --- HOOKS ---
 
 %hook UILabel
-- (void)setText:(NSString *)text { isValidString(text) ? %orig(translateText(text)) : %orig(text); }
-- (void)setAttributedText:(NSAttributedString *)attributedText {
+- (void)setText:(NSString *)text {
+    if (isValidString(text)) {
+        %orig(translateText(text));
+    } else {
+        %orig(text);
+    }
+}
+
+- (void)setAttributedStringText:(NSAttributedString *)attributedText {
     if (attributedText && attributedText.length > 0) {
         NSMutableAttributedString *newAttr = [[NSMutableAttributedString alloc] init];
         [attributedText enumerateAttributesInRange:NSMakeRange(0, attributedText.length) options:0 usingBlock:^(NSDictionary *attrs, NSRange range, BOOL *stop) {
@@ -153,13 +158,22 @@ static void loadTranslations() {
             [newAttr appendAttributedString:newSub];
         }];
         %orig(newAttr);
-    } else { %orig(attributedText); }
+    } else {
+        %orig(attributedText);
+    }
 }
 %end
 
 %hook UITextView
-- (void)setText:(NSString *)text { isValidString(text) ? %orig(translateText(text)) : %orig(text); }
-- (void)setAttributedText:(NSAttributedString *)attributedText {
+- (void)setText:(NSString *)text {
+    if (isValidString(text)) {
+        %orig(translateText(text));
+    } else {
+        %orig(text);
+    }
+}
+
+- (void)setAttributedStringText:(NSAttributedString *)attributedText {
     if (attributedText && attributedText.length > 0) {
         NSMutableAttributedString *newAttr = [[NSMutableAttributedString alloc] init];
         [attributedText enumerateAttributesInRange:NSMakeRange(0, attributedText.length) options:0 usingBlock:^(NSDictionary *attrs, NSRange range, BOOL *stop) {
@@ -169,32 +183,61 @@ static void loadTranslations() {
             [newAttr appendAttributedString:newSub];
         }];
         %orig(newAttr);
-    } else { %orig(attributedText); }
+    } else {
+        %orig(attributedText);
+    }
 }
 %end
 
 %hook UIButton
 - (void)setTitle:(NSString *)title forState:(UIControlState)state {
-    isValidString(title) ? %orig(translateText(title), state) : %orig(title, state);
+    if (isValidString(title)) {
+        %orig(translateText(title), state);
+    } else {
+        %orig(title, state);
+    }
 }
 %end
 
 %hook UIAlertController
-- (void)setTitle:(NSString *)title { isValidString(title) ? %orig(translateText(title)) : %orig(title); }
-- (void)setMessage:(NSString *)message { isValidString(message) ? %orig(translateText(message)) : %orig(message); }
+- (void)setTitle:(NSString *)title {
+    if (isValidString(title)) {
+        %orig(translateText(title));
+    } else {
+        %orig(title);
+    }
+}
+
+- (void)setMessage:(NSString *)message {
+    if (isValidString(message)) {
+        %orig(translateText(message));
+    } else {
+        %orig(message);
+    }
+}
+
 + (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)style {
-    return %orig(translateText(title), translateText(message), style);
+    NSString *transTitle = isValidString(title) ? translateText(title) : title;
+    NSString *transMsg = isValidString(message) ? translateText(message) : message;
+    return %orig(transTitle, transMsg, style);
 }
 %end
 
 %hook UIAlertAction
-+ (instancetype)actionWithTitle:(NSString *)title style:(UIAlertActionStyle)style handler:(id)handler {
-    return %orig(translateText(title), style, handler);
++ (instancetype)actionWithTitle:(NSString *)title style:(UIAlertActionStyle)style handler:(void (^)(UIAlertAction *action))handler {
+    NSString *transTitle = isValidString(title) ? translateText(title) : title;
+    return %orig(transTitle, style, handler);
 }
 %end
 
 %hook UINavigationItem
-- (void)setTitle:(NSString *)title { isValidString(title) ? %orig(translateText(title)) : %orig(title); }
+- (void)setTitle:(NSString *)title {
+    if (isValidString(title)) {
+        %orig(translateText(title));
+    } else {
+        %orig(title);
+    }
+}
 %end
 
 %hook UITableViewCell

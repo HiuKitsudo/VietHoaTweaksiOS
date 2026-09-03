@@ -7,5 +7,5 @@ Section: Tweaks
 Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
-Version: 1.0.1
+Version: 1.0.2
 Installed-Size: 92
