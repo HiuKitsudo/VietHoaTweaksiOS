@@ -1,0 +1,11 @@
+Package: com.kitsudo.trollstoreviethoa
+Name: TrollStore gói Việt Hoá
+Description: Thêm ngôn ngữ Tiếng Việt cho Trollstore
+Maintainer: JTISVN repo
+Author: Kitsudo
+Section: Tweaks
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 92

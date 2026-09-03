@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CPU 使用率</key>
+	<string>Mức sử dụng CPU</string>
+	<key>CPU 性能模式</key>
+	<string>CHẾ ĐỘ HIỆU NĂNG CPU</string>
+	<key>CPU 核心数</key>
+	<string>Số nhân CPU</string>
+	<key>CPU 模式</key>
+	<string>Chế độ CPU</string>
+	<key>CPU 硬件信息</key>
+	<string>THÔNG TIN PHẦN CỨNG CPU</string>
+	<key>CPU 频率</key>
+	<string>Xung nhịp CPU</string>
+	<key>E核 性能等级</key>
+	<string>Mức hiệu năng nhân E</string>
+	<key>E核频率</key>
+	<string>Xung nhịp nhân E</string>
+	<key>GPU 频率锁定</key>
+	<string>Khóa xung nhịp GPU</string>
+	<key>IOSurface 渲染加速</key>
+	<string>Tăng tốc kết xuất IOSurface</string>
+	<key>L1 缓存</key>
+	<string>Bộ nhớ đệm L1</string>
+	<key>L2 缓存</key>
+	<string>Bộ nhớ đệm L2</string>
+	<key>P 核 / E 核</key>
+	<string>Nhân P / Nhân E</string>
+	<key>P 核主要承担高性能任务，E 核主要处理轻负载。滑块数值越高，性能倾向越强，发热和耗电也可能增加；不熟悉时建议保持默认值。</key>
+	<string>Nhân P (Hiệu năng) xử lý các tác vụ nặng, nhân E (Tiết kiệm điện) xử lý các tác vụ nhẹ. Giá trị thanh trượt càng cao thì hiệu năng càng mạnh, đồng thời nhiệt độ và mức tiêu thụ pin có thể tăng; nếu chưa rõ nên giữ nguyên mặc định.</string>
+	<key>P核 性能等级</key>
+	<string>Mức hiệu năng nhân P</string>
+	<key>P核/E核 独立控制</key>
+	<string>ĐIỀU KHIỂN ĐỘC LẬP NHÂN P / NHÂN E</string>
+	<key>P核频率</key>
+	<string>Xung nhịp nhân P</string>
+	<key>QoS 调度劫持</key>
+	<string>Can thiệp điều phối QoS</string>
+	<key>Rain的Mhz</key>
+	<string>Rain Mhz</string>
+	<key>Rain的Mhz v6.13.0</key>
+	<string>Rain Mhz v6.13.0</string>
+	<key>“减少软件温控降频”会持续减弱应用和部分系统软件的温控限制，但插件自身的高温安全降档与芯片硬件保护仍然有效。</key>
+	<string>«Giảm bóp hiệu năng do nhiệt độ» sẽ liên tục nới lỏng giới hạn kiểm soát nhiệt của ứng dụng và hệ thống, tuy nhiên cơ chế bảo vệ nhiệt của tinh chỉnh và phần cứng chip vẫn được giữ nguyên.</string>
+	<key>一键深度加速</key>
+	<string>DỌN DẸP TĂNG TỐC SÂU</string>
+	<key>上次跑分</key>
+	<string>Điểm số lần trước</string>
+	<key>中断亲和性绑定</key>
+	<string>Ghim xử lý ngắt CPU (IRQ)</string>
+	<key>主动散热降温</key>
+	<string>Chủ động tản nhiệt làm mát</string>
+	<key>仅选中</key>
+	<string>Chỉ ứng dụng đã chọn</string>
+	<key>低发热</key>
+	<string>Ít tỏa nhiệt</string>
+	<key>充电时极速模式</key>
+	<string>Tăng tốc hiệu năng khi cắm sạc</string>
+	<key>充电极速模式</key>
+	<string>CHẾ ĐỘ TĂNG TỐC KHI SẠC</string>
+	<key>充电状态</key>
+	<string>Tình trạng sạc</string>
+	<key>全部应用</key>
+	<string>Tất cả ứng dụng</string>
+	<key>内存使用</key>
+	<string>Mức dùng bộ nhớ RAM</string>
+	<key>内存压缩关闭</key>
+	<string>Tắt nén bộ nhớ RAM</string>
+	<key>冷却时间 (秒)</key>
+	<string>Thời gian hạ nhiệt (giây)</string>
+	<key>减少软件温控降频</key>
+	<string>Giảm bóp hiệu năng do nhiệt độ</string>
+	<key>功能说明</key>
+	<string>HƯỚNG DẪN TÍNH NĂNG</string>
+	<key>加速持续时间（秒）</key>
+	<string>Thời gian tăng tốc (giây)</string>
+	<key>加速范围</key>
+	<string>Phạm vi tăng tốc</string>
+	<key>各核心负载</key>
+	<string>Mức tải từng nhân</string>
+	<key>后台进程冻结</key>
+	<string>ĐÓNG BĂNG TIẾN TRÌNH CHẠY NGẦM</string>
+	<key>启用应用加速器</key>
+	<string>Bật trình tăng tốc ứng dụng</string>
+	<key>启用应用启动加速</key>
+	<string>Bật tăng tốc mở ứng dụng</string>
+	<key>启用应用级调频</key>
+	<string>Bật cấu hình theo từng ứng dụng</string>
+	<key>启用性能通知</key>
+	<string>Bật thông báo hiệu năng</string>
+	<key>启用插件</key>
+	<string>Bật/Tắt tinh chỉnh</string>
+	<key>启用散热节奏</key>
+	<string>Bật nhịp độ tản nhiệt</string>
+	<key>启用游戏模式</key>
+	<string>Bật Chế độ trò chơi</string>
+	<key>启用独立核心控制</key>
+	<string>Bật điều khiển cụm nhân riêng</string>
+	<key>均衡</key>
+	<string>Cân bằng</string>
+	<key>实时 CPU 状态</key>
+	<string>TRẠNG THÁI CPU TRỰC TIẾP</string>
+	<key>实时性能通知</key>
+	<string>THÔNG BÁO HIỆU NĂNG TRỰC TIẾP</string>
+	<key>实时核心频率</key>
+	<string>XUNG NHỊP THEO THỜI GIAN THỰC</string>
+	<key>常见问题</key>
+	<string>CÂU HỎI THƯỜNG GẶP</string>
+	<key>应用启动加速</key>
+	<string>TĂNG TỐC MỞ ỨNG DỤNG</string>
+	<key>应用打开时短暂提高性能并协调后台资源。可对全部第三方应用生效，也可只加速选中的大型应用；持续时间越长，短时功耗越高。</key>
+	<string>Tăng vọt hiệu năng trong thời gian ngắn và tối ưu tài nguyên nền khi mở ứng dụng. Có thể áp dụng cho tất cả ứng dụng bên thứ ba hoặc chỉ áp dụng cho ứng dụng nặng đã chọn; thời gian kích hoạt càng lâu thì điện năng tiêu thụ tức thời càng cao.</string>
+	<key>应用级智能调频</key>
+	<string>CẤU HÌNH THEO TỪNG ỨNG DỤNG</string>
+	<key>开始散热评估</key>
+	<string>Bắt đầu kiểm tra tản nhiệt</string>
+	<key>性能增强策略</key>
+	<string>CHIẾN LƯỢC TỐI ƯU HIỆU NĂNG</string>
+	<key>悬浮球快捷控制</key>
+	<string>Phím điều khiển nhanh dạng nổi</string>
+	<key>散热评估</key>
+	<string>ĐÁNH GIÁ TẢN NHIỆT</string>
+	<key>散热评分</key>
+	<string>Điểm tản nhiệt</string>
+	<key>显示设备的静态硬件信息；部分频率或缓存数据可能因系统限制而不可读。</key>
+	<string>Hiển thị thông số phần cứng của thiết bị; một số thông tin xung nhịp hoặc bộ nhớ đệm có thể không đọc được do giới hạn của hệ thống.</string>
+	<key>智能</key>
+	<string>Tự động</string>
+	<key>智能后台管控</key>
+	<string>Quản lý tiến trình ngầm thông minh</string>
+	<key>智能散热节奏</key>
+	<string>NHỊP ĐỘ TẢN NHIỆT THÔNG MINH</string>
+	<key>智能温控上限 (°C)</key>
+	<string>Ngưỡng nhiệt kiểm soát (°C)</string>
+	<key>智能调频与稳帧</key>
+	<string>ĐIỀU XUNG THÔNG MINH &amp; KHÓA KHUNG HÌNH</string>
+	<key>未测试</key>
+	<string>Chưa kiểm tra</string>
+	<key>极限性能高温度</key>
+	<string>Hiệu năng tối đa (Nhiệt độ cao)</string>
+	<key>桌面 HUD 浮窗</key>
+	<string>Cửa sổ HUD nổi trên màn hình</string>
+	<key>模式切换时通知</key>
+	<string>Thông báo khi chuyển chế độ</string>
+	<key>每 2.5 秒刷新一次。降频来源会区分插件温度保护、疑似硬件限频和反馈不可用；“疑似硬件限频”需要连续采样确认，不代表硬件故障。</key>
+	<string>Tự động làm mới sau mỗi 2.5 giây. Cơ chế hạ xung sẽ phân loại rõ: bảo vệ nhiệt từ tinh chỉnh, nghi ngờ phần cứng giới hạn hoặc không có dữ liệu; «Nghi ngờ phần cứng giới hạn» cần nhiều mẫu đo để xác nhận và không đồng nghĩa với lỗi phần cứng.</string>
+	<key>温度上限 (°C)</key>
+	<string>Ngưỡng nhiệt tối đa (°C)</string>
+	<key>温度状态</key>
+	<string>Trạng thái nhiệt độ</string>
+	<key>温度通知阈值 (°C)</key>
+	<string>Ngưỡng nhiệt gửi thông báo (°C)</string>
+	<key>温控保护</key>
+	<string>Bảo vệ kiểm soát nhiệt</string>
+	<key>游戏模式</key>
+	<string>CHẾ ĐỘ CHƠI GAME</string>
+	<key>灵动岛 / 悬浮球</key>
+	<string>DYNAMIC ISLAND / PHÍM TRỢ NĂNG NỔI</string>
+	<key>灵动岛数据面板</key>
+	<string>Bảng thông số trên Dynamic Island</string>
+	<key>物理内存</key>
+	<string>Dung lượng RAM</string>
+	<key>电量影响预估</key>
+	<string>DỰ ĐOÁN MỨC TIÊU THỤ PIN</string>
+	<key>稳定帧率优先</key>
+	<string>Ưu tiên độ ổn định khung hình</string>
+	<key>稳帧目标</key>
+	<string>Mục tiêu FPS</string>
+	<key>立即深度加速</key>
+	<string>Dọn dẹp tăng tốc ngay</string>
+	<key>等待频率反馈</key>
+	<string>Đang chờ phản hồi...</string>
+	<key>续航影响</key>
+	<string>Tác động tới thời lượng pin</string>
+	<key>网络 / 触控 / 散热</key>
+	<string>MẠNG / CẢM ỨNG / TẢN NHIỆT</string>
+	<key>网络极速模式</key>
+	<string>Tăng tốc mạng tối đa</string>
+	<key>芯片型号</key>
+	<string>Tên chip xử lý</string>
+	<key>触控响应增强</key>
+	<string>Tăng độ nhạy cảm ứng</string>
+	<key>设备标识</key>
+	<string>Dòng máy</string>
+	<key>跑分测试</key>
+	<string>CHẤM ĐIỂM HIỆU NĂNG</string>
+	<key>进阶跑分 2.0</key>
+	<string>Chấm điểm nâng cao 2.0</string>
+	<key>迷你跑分</key>
+	<string>Chấm điểm nhanh</string>
+	<key>迷你跑分用于快速对比当前模式；进阶跑分会测试 CPU、内存与综合性能，运行时请保持前台。</key>
+	<string>Chấm điểm nhanh để so sánh tức thì chế độ hiện tại; Chấm điểm nâng cao sẽ kiểm tra CPU, bộ nhớ đệm và hiệu năng tổng thể, vui lòng giữ màn hình sáng trong quá trình đo.</string>
+	<key>选择启动加速应用</key>
+	<string>Chọn ứng dụng cần tăng tốc</string>
+	<key>配置应用模式</key>
+	<string>Thiết lập chế độ ứng dụng</string>
+	<key>重置所有设置</key>
+	<string>Đặt lại tất cả cài đặt</string>
+	<key>降频时通知</key>
+	<string>Thông báo khi bị giảm xung nhịp</string>
+	<key>降频来源</key>
+	<string>Nguồn gốc bóp xung</string>
+	<key>高刷轻省模式</key>
+	<string>Tiết kiệm tần số quét cao</string>
+	<key>高刷轻省模式优先把日常任务交给 E 核并限制 P 核持续峰值，不开启系统低电量模式，因此不会主动关闭 5G；支持 ProMotion 的设备滚动时仍可达到 120Hz，静止画面允许动态降刷省电。游戏、应用配置和启动加速会自动获得更高优先级。</key>
+	<string>Chế độ Tiết kiệm tần số quét cao ưu tiên giao tác vụ hàng ngày cho nhân E và hạn chế nhân P duy trì ở mức đỉnh. Chế độ này không bật Chế độ nguồn điện thấp nên không bị tắt 5G; các thiết bị hỗ trợ ProMotion khi cuộn vẫn đạt 120Hz và tự hạ tần số quét khi hình ảnh tĩnh để tiết kiệm pin. Game, cấu hình ứng dụng và tăng tốc khởi động sẽ tự động nhận quyền ưu tiên cao hơn.</string>
+	<key>高性能时间 (秒)</key>
+	<string>Thời gian duy trì hiệu năng cao (giây)</string>
+	<key>高温时通知</key>
+	<string>Thông báo khi nhiệt độ cao</string>
+	<key>高级选项</key>
+	<string>TÙY CHỌN NÂNG CAO</string>
+</dict>
+</plist>

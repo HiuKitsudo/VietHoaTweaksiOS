@@ -1,0 +1,11 @@
+Package: com.kitsudo.rainmhzvh
+Name: RainMhz gói Việt Hoá
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho tweak RainMhz
+Maintainer: Kitsudo
+Author: Kitsudo
+Section: Tweaks
+SileoDepiction: https://jtisvn.github.io/sileodepictions/RainMhzVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)

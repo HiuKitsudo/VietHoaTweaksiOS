@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Rain的Mhz 是免费提供的系统调节插件，主要用于性能测试与日常体验优化。继续启用或使用本插件，即表示你已阅读并理解本页面所述风险。</key>
+	<string>Rain Mhz là tinh chỉnh hệ thống miễn phí, phục vụ cho việc kiểm tra hiệu năng và tối ưu trải nghiệm hàng ngày. Việc tiếp tục bật và sử dụng đồng nghĩa với việc bạn đã đọc và chấp nhận các rủi ro nêu tại đây.</string>
+	<key>不同设备、芯片、iOS 版本和越狱环境的底层接口可能不同，无法保证所有功能在每台设备上均有效。部分设置可能引起耗电增加、温度升高、应用异常、SpringBoard 重启或进入安全模式。建议保留温控保护，并逐项测试。</key>
+	<string>Giao diện hệ thống cấp thấp có thể khác nhau tùy theo thiết bị, dòng chip, phiên bản iOS và môi trường jailbreak, do đó không đảm bảo mọi tính năng đều hoạt động hoàn hảo trên tất cả thiết bị. Một số cài đặt có thể làm tăng hao pin, máy nóng, lỗi ứng dụng, crash SpringBoard hoặc vào Safe Mode. Khuyến nghị giữ bật bảo vệ nhiệt và thử nghiệm từng tính năng một.</string>
+	<key>使用前请阅读</key>
+	<string>VUI LÒNG ĐỌC TRƯỚC KHI DÙNG</string>
+	<key>停止使用</key>
+	<string>NGỪNG SỬ DỤNG</string>
+	<key>免责声明</key>
+	<string>Tuyên bố miễn trừ trách nhiệm</string>
+	<key>兼容性与稳定性</key>
+	<string>TÍNH TƯƠNG THÍCH &amp; ĐỘ ỔN ĐỊNH</string>
+	<key>如果你不同意上述内容，请关闭插件并卸载。遇到持续发热、异常耗电、卡顿、重启或安全模式时，请先关闭最近启用的功能，并注销或重启 SpringBoard。</key>
+	<string>Nếu không đồng ý với các điều khoản trên, vui lòng tắt và gỡ cài đặt tinh chỉnh. Nếu gặp tình trạng máy nóng liên tục, hao pin bất thường, giật lag, tự khởi động lại hoặc vào Safe Mode, hãy tắt các tính năng vừa kích hoạt và respring hoặc khởi động lại thiết bị.</string>
+	<key>本插件不要求登录账户，不收集或上传个人信息、设备内容和使用记录。设置与运行状态保存在设备本地。</key>
+	<string>Tinh chỉnh không yêu cầu đăng nhập tài khoản, không thu thập hay tải lên bất kỳ thông tin cá nhân, dữ liệu thiết bị hay nhật ký sử dụng nào. Toàn bộ cài đặt và trạng thái hoạt động chỉ lưu cục bộ trên máy.</string>
+	<key>本插件按现状免费提供，不对性能提升、续航改善、特定用途适用性或持续兼容性作出保证。用户应自行判断并承担使用风险；在适用法律允许的最大范围内，作者不对因安装、设置或使用本插件产生的设备故障、数据损失或其他间接损失负责。</key>
+	<string>Tinh chỉnh được cung cấp miễn phí theo hiện trạng, không đảm bảo chắc chắn về việc cải thiện hiệu năng, tăng thời lượng pin hay tính tương thích liên tục. Người dùng tự đánh giá và chịu mọi rủi ro khi sử dụng; tác giả không chịu trách nhiệm với bất kỳ lỗi thiết bị, mất dữ liệu hay thiệt hại gián tiếp nào phát sinh do việc cài đặt và sử dụng tinh chỉnh.</string>
+	<key>设备、电池与数据</key>
+	<string>THIẾT BỊ, PIN &amp; DỮ LIỆU</string>
+	<key>责任范围</key>
+	<string>GIỚI HẠN TRÁCH NHIỆM</string>
+	<key>长时间使用高性能、温控减弱或后台调节功能，可能增加功耗、温升和电池损耗。插件不能绕过芯片、供电和电池的硬件保护。使用前请备份重要数据，出现异常时应立即关闭相关功能或卸载插件。</key>
+	<string>Sử dụng chế độ hiệu năng cao liên tục, giảm kiểm soát nhiệt hoặc can thiệp chạy ngầm trong thời gian dài có thể làm tăng điện năng tiêu thụ, nhiệt độ và chai pin. Tinh chỉnh không thể can thiệp qua các lớp bảo vệ phần cứng của chip, nguồn điện và pin. Vui lòng sao lưu dữ liệu quan trọng trước khi dùng, khi gặp sự cố hãy tắt ngay tính năng vừa chỉnh hoặc gỡ bỏ tinh chỉnh.</string>
+	<key>隐私说明</key>
+	<string>CHÍNH SÁCH QUYỀN RIÊNG TƯ</string>
+</dict>
+</plist>

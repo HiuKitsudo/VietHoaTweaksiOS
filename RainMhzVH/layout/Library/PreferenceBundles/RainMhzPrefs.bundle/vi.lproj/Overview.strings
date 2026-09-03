@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Rain的Mhz</key>
+	<string>Rain Mhz</string>
+	<key>Rain的Mhz v6.13.0</key>
+	<string>Rain Mhz v6.13.0</string>
+	<key>使用说明</key>
+	<string>Hướng dẫn sử dụng</string>
+	<key>免责声明</key>
+	<string>Tuyên bố miễn trừ trách nhiệm</string>
+	<key>全部功能</key>
+	<string>TẤT CẢ TÍNH NĂNG</string>
+	<key>功能与工具</key>
+	<string>Tính năng &amp; Công cụ</string>
+	<key>启用插件</key>
+	<string>Bật tinh chỉnh</string>
+	<key>场景模式</key>
+	<string>CHẾ ĐỘ THEO TÌNH HUỐNG</string>
+	<key>性能与调频</key>
+	<string>Hiệu năng &amp; Điều xung</string>
+	<key>状态概览</key>
+	<string>TỔNG QUAN TRẠNG THÁI</string>
+	<key>监控与跑分</key>
+	<string>Giám sát &amp; Chấm điểm</string>
+	<key>高级设置</key>
+	<string>Cài đặt nâng cao</string>
+</dict>
+</plist>

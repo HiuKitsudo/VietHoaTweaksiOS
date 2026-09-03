@@ -1,0 +1,50 @@
+name: Build All iOS Projects
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
+    - name: Install Dependencies
+      run: brew install ldid
+
+    - name: Setup Theos
+      run: |
+        git clone --recursive https://github.com/theos/theos.git $HOME/theos
+
+    - name: Download iOS SDK
+      run: |
+        rm -rf $HOME/theos/sdks
+        git clone --depth=1 https://github.com/xybp888/iOS-SDKs.git $HOME/theos/sdks
+
+    - name: Build All Projects
+      run: |
+        export THEOS=$HOME/theos
+        mkdir -p output_debs
+
+        find . -mindepth 2 -maxdepth 3 -name "Makefile" | while read -r makefile; do
+          proj_dir=$(dirname "$makefile")
+          echo "========================================"
+          echo "Building Project: $proj_dir"
+          echo "========================================"
+          cd "$GITHUB_WORKSPACE/$proj_dir"
+          make clean package FINALPACKAGE=1
+          mv packages/*.deb "$GITHUB_WORKSPACE/output_debs/" 2>/dev/null || true
+          cd "$GITHUB_WORKSPACE"
+        done
+
+    - name: Upload All Deb Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: Kitsudo-Deb-Packages
+        path: output_debs/*.deb

@@ -1,0 +1,10 @@
+Package: com.kitsudo.douyinvn
+Name: Douyin gói Việt Hoá
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Thêm ngôn ngữ Tiếng Việt cho Douyin (TikTok Trung Quốc)
+Maintainer: Kitsudo
+Author: Kitsudo
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+Section: Tweaks
+Depends: mobilesubstrate

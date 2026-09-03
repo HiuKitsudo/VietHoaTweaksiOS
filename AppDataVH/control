@@ -1,0 +1,12 @@
+Package: com.kitsudo.appdataviethoa
+Name: AppData gói Việt Hóa
+Version: 1.0.2-1
+Architecture: iphoneos-arm
+Description: Thêm ngôn ngữ Tiếng Việt đầy đủ cho menu & settings tweak AppData
+Maintainer: JTISVN Repo
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AppDataVH.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.bvn.appdatavn

@@ -1,0 +1,9 @@
+Package: com.jtisvn.tweak
+Name: Tweak
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: An awesome library of some sort!!
+Maintainer: Kitsudo
+Author: Kitsudo
+Section: System
+Tag: role::developer

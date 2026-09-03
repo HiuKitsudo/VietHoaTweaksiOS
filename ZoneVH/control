@@ -1,0 +1,9 @@
+Package: com.kitsudo.zonevh
+Name: Zone Việt Hoá
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Gói Viết Hoá đầy đủ cho Tweak Zone
+Maintainer: Kitsudo
+Author: Kitsudo
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

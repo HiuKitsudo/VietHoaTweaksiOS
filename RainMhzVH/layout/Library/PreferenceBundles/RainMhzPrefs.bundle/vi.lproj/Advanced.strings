@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>冷却阶段时长（秒）</key>
+	<string>Thời gian hạ nhiệt (giây)</string>
+	<key>可分别提示降频、高温和模式切换。温度通知阈值越低，提醒会越早。</key>
+	<string>Tùy chọn cảnh báo khi giảm xung, nhiệt độ cao và chuyển đổi chế độ. Ngưỡng nhiệt càng thấp thì thông báo sẽ gửi càng sớm.</string>
+	<key>启用性能通知</key>
+	<string>Bật thông báo hiệu năng</string>
+	<key>启用散热节奏</key>
+	<string>Bật nhịp độ tản nhiệt</string>
+	<key>在高性能和冷却阶段之间循环，减少长时间满载导致的过热降频。高性能时间越长，性能越强但发热更高；冷却时间越长，温度更稳但短时性能会降低；温度上限是提前转入冷却的触发值。</key>
+	<string>Luân phiên giữa giai đoạn hiệu năng cao và hạ nhiệt để tránh máy bị quá nhiệt giảm xung do tải nặng liên tục. Thời gian hiệu năng cao càng dài thì máy chạy càng bốc nhưng nóng hơn; thời gian hạ nhiệt càng lâu thì máy mát hơn nhưng hiệu năng tức thời sẽ giảm; nhiệt độ giới hạn là mức kích hoạt chuyển sớm sang giai đoạn hạ nhiệt.</string>
+	<key>基础高级选项</key>
+	<string>TÙY CHỌN NÂNG CAO CƠ BẢN</string>
+	<key>性能通知</key>
+	<string>THÔNG BÁO HIỆU NĂNG</string>
+	<key>智能散热节奏</key>
+	<string>NHỊP ĐỘ TẢN NHIỆT THÔNG MINH</string>
+	<key>桌面 HUD 浮窗</key>
+	<string>Cửa sổ HUD nổi trên màn hình</string>
+	<key>模式切换时通知</key>
+	<string>Thông báo khi chuyển chế độ</string>
+	<key>温控保护</key>
+	<string>Bảo vệ kiểm soát nhiệt</string>
+	<key>维护</key>
+	<string>BẢO TRÌ</string>
+	<key>转入冷却温度（°C）</key>
+	<string>Nhiệt độ chuyển sang hạ nhiệt (°C)</string>
+	<key>重置所有设置</key>
+	<string>Đặt lại tất cả cài đặt</string>
+	<key>降频时通知</key>
+	<string>Thông báo khi bị giảm xung</string>
+	<key>高性能阶段时长（秒）</key>
+	<string>Thời gian duy trì hiệu năng cao (giây)</string>
+	<key>高温提醒阈值（°C）</key>
+	<string>Ngưỡng nhiệt gửi thông báo (°C)</string>
+	<key>高温时通知</key>
+	<string>Thông báo khi nhiệt độ cao</string>
+	<key>高级设置</key>
+	<string>Cài đặt nâng cao</string>
+</dict>
+</plist>

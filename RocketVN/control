@@ -1,0 +1,9 @@
+Package: com.kitsudo.rocketvn
+Name: RocketVN
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Kitsudo
+Author: Kitsudo
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

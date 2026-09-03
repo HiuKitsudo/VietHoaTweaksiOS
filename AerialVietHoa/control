@@ -1,0 +1,12 @@
+Package: com.kitsudo.aerialviethoa
+Name: Aerial gói Việt Hóa (Rootless)
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Description: Thêm ngôn ngữ đầy đủ cho menu tweak Aerial
+Maintainer: JTISVN Repo
+Author: Kitsudo
+SileoDepiction: https://jtisvn.github.io/sileodepictions/AerialVietHoa.json
+Icon: https://jtisvn.github.io/sectionIcons/goiviethoa.png
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+

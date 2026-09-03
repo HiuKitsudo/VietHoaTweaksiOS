@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Rain的Mhz v6.13.0
+Developed by rain © 2026</key>
+	<string>Rain Mhz v6.13.0
+Phát triển bởi rain © 2026</string>
+	<key>“通道可用”表示检测到对应 IOKit 服务；“频率反馈可用”表示驱动允许读取相关反馈。它们不等同于性能必然提升，最终效果应结合帧率、功耗、温升和跑分验证。</key>
+	<string>«Kênh khả dụng» nghĩa là đã nhận diện được dịch vụ IOKit tương ứng; «Phản hồi xung nhịp khả dụng» nghĩa là trình điều khiển cho phép đọc thông số. Những trạng thái này không đồng nghĩa với việc hiệu năng chắc chắn tăng, hiệu quả thực tế cần dựa trên trải nghiệm độ mượt, mức tiêu thụ pin, nhiệt độ và điểm số đo đạc.</string>
+	<key>优先使用“游戏”场景预设，再按需要为单独游戏配置模式。帧率稳定且温度正常时，不建议继续叠加“减少软件温控降频”或更多强制策略。</key>
+	<string>Khuyên dùng cấu hình sẵn «Chơi game» trước, sau đó tùy chỉnh riêng cho từng tựa game nếu cần. Khi khung hình đã ổn định và nhiệt độ ở mức bình thường, không nên lạm dụng thêm tính năng «Giảm bóp hiệu năng do nhiệt độ» hoặc các tinh chỉnh ép xung khác.</string>
+	<key>使用说明</key>
+	<string>Hướng dẫn sử dụng</string>
+	<key>关于</key>
+	<string>THÔNG TIN</string>
+	<key>后台进程</key>
+	<string>TIẾN TRÌNH CHẠY NGẦM</string>
+	<key>在“功能与工具”中进入应用模式配置。点击已配置应用可修改模式，左滑可以删除；也可以从已安装应用中添加新配置。应用配置的优先级高于游戏和全局模式。</key>
+	<string>Vào mục «Cấu hình chế độ ứng dụng» trong phần Tính năng &amp; Công cụ. Chạm vào ứng dụng đã thiết lập để sửa chế độ, vuốt sang trái để xóa; bạn cũng có thể thêm cấu hình mới từ danh sách ứng dụng đã cài đặt. Cấu hình theo từng ứng dụng có mức ưu tiên cao hơn Chế độ chơi game và Chế độ toàn cục.</string>
+	<key>场景预设</key>
+	<string>CÁC CHẾ ĐỘ THIẾT LẬP SẴN</string>
+	<key>常见问题</key>
+	<string>CÂU HỎI THƯỜNG GẶP</string>
+	<key>应用配置</key>
+	<string>CẤU HÌNH ỨNG DỤNG</string>
+	<key>建议使用“推荐”安全预设。插件会优先限速，持续活跃时才冻结；离开场景、超时或点击紧急恢复后会恢复进程。</key>
+	<string>Nên dùng cấu hình an toàn «Được đề xuất». Tinh chỉnh sẽ ưu tiên giới hạn tốc độ và chỉ đóng băng khi ứng dụng nền hoạt động liên tục; các tiến trình sẽ được khôi phục khi bạn thoát ứng dụng, hết thời gian chờ hoặc nhấn vào Khôi phục khẩn cấp.</string>
+	<key>建议保持温控保护开启。“减少软件温控降频”只减弱应用和部分系统软件触发的降频，不能绕过芯片、供电和电池的硬件安全保护；启用后仍可能因真实高温降低频率。</key>
+	<string>Khuyến nghị luôn bật bảo vệ kiểm soát nhiệt. Tính năng «Giảm bóp hiệu năng do nhiệt độ» chỉ hạn chế việc giảm xung do phần mềm kích hoạt, hoàn toàn không thể vượt qua cơ chế bảo vệ phần cứng của chip, nguồn điện và pin; khi thiết bị quá nhiệt trên thực tế, xung nhịp vẫn sẽ tự động hạ để đảm bảo an toàn.</string>
+	<key>温度安全限制优先于应用启动加速、散热节奏、充电模式、应用配置、游戏模式和全局模式。首页会显示当前实际生效模式与原因。</key>
+	<string>Giới hạn an toàn nhiệt độ luôn được ưu tiên cao nhất, đứng trước Tăng tốc mở ứng dụng, Nhịp độ tản nhiệt, Chế độ sạc, Cấu hình ứng dụng, Chế độ chơi game và Chế độ toàn cục. Trang chính sẽ hiển thị chế độ đang hoạt động thực tế cùng lý do kích hoạt.</string>
+	<key>温控说明</key>
+	<string>GIẢI THÍCH VỀ KIỂM SOÁT NHIỆT</string>
+	<key>游戏建议</key>
+	<string>LỜI KHUYÊN KHI CHƠI GAME</string>
+	<key>游戏模式不生效：确认总开关和游戏模式已开启，或在应用配置中手动添加。
+
+模式自动变化：首页“生效原因”会显示是温控、启动加速、充电、应用配置还是游戏场景触发。
+
+设置修改后无变化：尝试关闭并重新开启插件，必要时注销 SpringBoard。
+
+需要恢复默认：返回高级设置，点击“重置所有设置”。</key>
+	<string>Chế độ game không có tác dụng: Kiểm tra xem công tắc chính và Chế độ trò chơi đã bật chưa, hoặc thêm ứng dụng thủ công trong phần Cấu hình ứng dụng.
+
+Chế độ tự động thay đổi: Mục «Lý do kích hoạt» ở trang chính sẽ hiển thị nguyên nhân do kiểm soát nhiệt, tăng tốc mở app, cắm sạc, cấu hình app hay do đang chơi game.
+
+Đổi cài đặt nhưng không thấy tác dụng: Hãy thử tắt rồi bật lại tinh chỉnh, respring lại thiết bị nếu cần.
+
+Cần khôi phục mặc định: Vào Cài đặt nâng cao và chọn «Đặt lại tất cả cài đặt».</string>
+	<key>省电：降低性能请求并开启温控。
+日常：智能调频，适合普通使用。
+游戏：提高 CPU、GPU 和前台应用优先级。
+稳帧：优先稳定帧时并保留温度安全限制。
+跑分：短时间启用高性能策略。</key>
+	<string>Tiết kiệm pin: Giảm hiệu năng và kích hoạt kiểm soát nhiệt.
+Hàng ngày: Tự động điều xung, phù hợp cho nhu cầu thông thường.
+Chơi game: Tăng mức ưu tiên cho CPU, GPU và ứng dụng tiền cảnh.
+Ổn định khung hình: Ưu tiên làm mượt thời gian khung hình (frame-time) và duy trì giới hạn nhiệt độ an toàn.
+Chấm điểm: Kích hoạt hiệu năng tối đa trong thời gian ngắn.</string>
+	<key>策略优先级</key>
+	<string>THỨ TỰ ƯU TIÊN</string>
+	<key>能力与验证</key>
+	<string>KHẢ NĂNG TƯƠNG THÍCH &amp; ĐO ĐẠC</string>
+</dict>
+</plist>
